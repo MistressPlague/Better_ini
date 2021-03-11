@@ -3,7 +3,6 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
-using VRCAntiCrash_Bot_GUI;
 
 namespace VRCAntiCrash
 {
@@ -69,7 +68,7 @@ namespace VRCAntiCrash
             }
             catch (Exception ex)
             {
-                GUI.SendLog("Config", "An Error Occurred While Writing To Config:\n" + ex);
+                //("Config", "An Error Occurred While Writing To Config:\n" + ex);
             }
 
             if (string.IsNullOrEmpty(ConvertedType))
